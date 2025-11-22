@@ -31,6 +31,12 @@ Follow these steps to verify the project works:
 3.  **Sell Stock:** Select `Test Pen` from the list. Click "Sell Selected". Enter Quantity `5` and confirm.
 4.  **Verify:** Check that the stock count dropped to `45`. Then, click "View Sales History" to see the transaction log.
 
+## How to Reset the App
+If you want to clear all data and start fresh:
+1. Close the application.
+2. Delete the `inventory_system.db` file.
+3. Run the app again. It will automatically create a brand new database.
+
 ## Screenshots
 *(Please see the "Screenshots" folder in this repository for visual references of the Login Screen, Dashboard, and Sales History)*
   
